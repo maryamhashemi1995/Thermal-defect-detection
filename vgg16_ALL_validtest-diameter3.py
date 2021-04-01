@@ -61,57 +61,6 @@ images9=glob.glob(images_path9+"*.bmp")
 images=[images1,images2,images3,images4,images5,images6,images7,images8,images9]
 
 
-#labelname=[]
-#labelclass=[]
-#index=0
-#for i in images:
-#    index+=1
-#    countimg=0
-#    if index==1 or index==5 or index==7:
-#        countlabel=1
-#    elif index==3 or index==6 or index==9:
-#        countlabel=0
-#    else:
-#        countlabel=2
-#    for j in i:
-#        countimg+=1
-#        labelclass.append(countlabel)
-#        img=cv2.imread(j)
-#        labelname.append(j)
-
-
-
-
-
-
-
-#data=[labelname,labelclass]
-#X_train = [ ]     # creating an empty array
-#X_valid=[]
-#y_train=[]
-#y_valid=[]
-#X_test=[]
-#Y_test=[]
-#X_notuse=[]
-#y_notuse=[]
-#traincount=-1
-#for img_name in labelname:
-#    traincount+=1
-#    img = cv2.imread( img_name)
-#    if traincount%6==0:
-#        X_test.append(img)
-#        Y_test.append(labelclass[traincount])
-#    elif traincount%6==1:
-#        X_valid.append(img)  # storing each image in array X
-#        y_valid.append(labelclass[traincount])
-#    elif traincount%6==2:
-#        X_notuse.append(img)
-#        y_notuse.append(labelclass[traincount])
-#    else:
-#        X_train.append(img)
-#        y_train.append(labelclass[traincount])
-    
- 
 
 labelclass = np.zeros((3249,1), dtype="uint8")
 
