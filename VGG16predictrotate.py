@@ -66,50 +66,5 @@ for i in images:
 
 
 
-#img=cv2.imread('C:/Users/MaryamHashemi/Desktop/Additive_manufacturing/Additive_manufacturing/1-9/ROI/145.bmp')
-##img=cv2.resize(img,(224,224))
-#img=resize(img, preserve_range=True, output_shape=(224,224))
-#h=img.shape[0]
-#w=img.shape[1]
-#center = (w / 2, h / 2)
-#
-#angle90 = 90
-#angle180 = 180
-#angle270 = 270
-#angle120=120
-#angle60=60
-#angle240=240
-#angle330=330
-#scale = 1.0
-#
-#M = cv2.getRotationMatrix2D(center, angle90, scale)
-#rotated90 = cv2.warpAffine(img, M, (h, w))
-#
-#x = image.img_to_array(rotated90)
-#x = np.expand_dims(x, axis=0)
-#x = preprocess_input(x,mode='tf')
-#features = base_model.predict(x)
-#features=features.reshape(len(features),7*7*512)
-#features=features/features.max()
-##import datetime
-##start=datetime.datetime.now()
-#predict=model.predict(features,batch_size=None,verbose=1,steps=None)
-##end=datetime.datetime.now()
-##elapsed=end-start
-##print('detection time',str(elapsed))
-#print(predict)
-        
-#        x = preprocess_input(img)
-#        x=np.reshape(img,(1,25088))
-#        x=x/255       
-#        predict=model.predict(x)
-#        print(predict)
-#        if predict<0.5:
-#            flag+=1
-#            if flag >= frame_check:
-#                print ("Drowsy")
-#                print()
-            
-
 
 
