@@ -1,5 +1,2 @@
 # Thermal-defect-detection
-
-Barbara Szymanik, Grzegorz Psuj, Maryam Hashemi, and Przemyslaw Lopato, "Detection and identification of defects in 3D printed dielectric structure using thermographic inspection and	deep neural networks", 2020.
-	
-Status: Submitted and Under review
+Szymanik, Barbara, Grzegorz Psuj, Maryam Hashemi, and Przemyslaw Lopato. 2021. "Detection and Identification of Defects in 3D-Printed Dielectric Structures via Thermographic Inspection and Deep Neural Networks" Materials 14, no. 15: 4168. https://doi.org/10.3390/ma14154168 
